@@ -1,0 +1,97 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#logo {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+	font-family: Roboto, sans-serif;
+	font-size: 5vh;
+	color: #000000;
+}
+
+.theme {
+	position: absolute;
+	width: 50%;
+	height: 10%;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 102px;
+	font-size: 4vh;
+	padding-left: 3vh;
+	padding-right: 3vh;
+}
+.generate {
+	position: absolute;
+	width: 30%;
+	height: 10%;
+	left: 50%;
+	top: 70%; 
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+	border: none;
+	background-color: #75D79C;
+	font-size: 4vh;
+	outline: none;
+	color: #000000;
+}
+.generate:hover {
+	background-color: #c4c4c4;
+	color: #000000;
+}
+#google {
+	position: absolute;
+	width: 60%;
+	height: 50%;
+	border: 1px solid black;
+	left: 50%;
+	top: 45%; 
+	transform: translate(-50%, -50%);
+	background-color: #f9f9f9;																																																																																																																																																																																			f9f9;
+	display: none;
+}
+#please {
+	position: relative;
+	width: 100%;
+	top: 5%;
+	font-family: Roboto, sans-serif;
+	font-size: 4vh;																																																																																																																																																	
+	text-align: center;
+	margin: 0px;
+}
+#continue {
+	margin: 0px;
+	position: relative;
+	width: 100%;
+	top: 50%;
+	font-family: Roboto, sans-serif;
+	font-size: 2.5vh;
+	text-align: center;
+}
+a {
+	color: #000000;
+}
+#google_button {
+	position: relative;
+	width: 70%;
+	height: 20%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 102px;
+	border: none;
+	background-color: #c4c4c4;
+	font-size: 5vh;
+	cursor: pointer;
+}
+#google_button:hover {
+	opacity: 0.5;
+}
+button {
+	outline: none;
+}
