@@ -1,0 +1,15 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.login {
+	position: absolute;
+	width: 882px;
+	height: 95px;
+	background-color: silver;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
