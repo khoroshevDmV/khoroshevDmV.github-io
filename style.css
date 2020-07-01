@@ -113,6 +113,9 @@ button {
 	#google {
 		width: 60vw;
 	}
+	#icon {
+		height: 80%;
+	}
 }
 :active, :hover, :focus {
 	outline: 0;
@@ -124,5 +127,19 @@ button {
 	}
 	#google {
 		width: 80vw;
+	}
+	#google_button {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 400px) {
+	#generate {
+		width: 70vw;
+	}
+	#google {
+		width: 80vw;
+	}
+	#google_button {
+		width: 80%;
 	}
 }
