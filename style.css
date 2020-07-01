@@ -46,7 +46,6 @@
 }
 #google {
 	position: fixed;
-	width: 45vw;
 	height: 70vh;
 	border: 3px solid #c4c4c4;
 	left: 50vw;
@@ -80,7 +79,6 @@ a {
 }
 #google_button {
 	position: fixed;
-	width: 47%;
 	height: 13%;
 	left: 50%;
 	top: 50%;
@@ -102,26 +100,35 @@ button {
 #icon {
 	position: fixed;
 	left: 5%;
-	top: 0%;
+	top: 50%;
+	transform: translateY(-50%);
 	height: 100%;
 	width: 25%;
+}
+@media screen and (max-width: 5000px) {
+	#google_button {
+		width: 47%;
+	}
+	#google {
+		width: 45vw;
+	}
 }
 @media screen and (max-width: 1080px) {
 	#generate {
 		width: 70vw;
 	}
 	#google {
-		width: 60vw;
+		width: 80vw;
 	}
-	#icon {
-		height: 80%;
+	#google_button {
+		width: 57%;
 	}
 }
 :active, :hover, :focus {
 	outline: 0;
 	outline-offset: 0;
 }
-@media screen and (max-width: 720px) {
+/*@media screen and (max-width: 720px) {
 	#generate {
 		width: 70vw;
 	}
@@ -132,7 +139,7 @@ button {
 		width: 70%;
 	}
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 360px) {
 	#generate {
 		width: 70vw;
 	}
@@ -142,4 +149,4 @@ button {
 	#google_button {
 		width: 80%;
 	}
-}
+}*/
