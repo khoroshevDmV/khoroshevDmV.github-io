@@ -118,3 +118,11 @@ button {
 	outline: 0;
 	outline-offset: 0;
 }
+@media screen and (max-width: 600px) {
+	#generate {
+		width: 70vw;
+	}
+	#google {
+		width: 80vw;
+	}
+}
