@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Нейро</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 	<p id="logo">НАРИСОВАТЬ СЮДА ЛОГО</p>
-	<input type="text" name="theme" class="theme" placeholder="Введите тему реферата">
+	<input type="text" name="theme" class="theme" id="theme" placeholder="Введите тему реферата">
 	<button class="generate" onclick="show_form()" id="generate">Сгенерировать</button>
 	<div id="google">
 		<p id="please">Пожалуйста, авторизуйтесь</p>
-		<button id="google_button">GOOGLE</button>
-		<p id="continue"><a href="#">Продолжить без авторизации</a>, тогда ваш реферат<br> не будет сохранен на сервере</p>
+		<button id="google_button"><img src="google_icon.png" id="icon">Войти</button>
+		<p id="continue"><a href="">Продолжить без авторизации</a>, тогда ваш реферат не будет сохранен на сервере</p>
 	</div>
 </body>
 </html>
