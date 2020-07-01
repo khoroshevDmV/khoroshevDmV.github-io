@@ -106,7 +106,7 @@ button {
 	height: 100%;
 	width: 25%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
 	#generate {
 		width: 70vw;
 	}
